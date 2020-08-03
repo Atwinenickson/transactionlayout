@@ -156,6 +156,15 @@ body {
   vertical-align: middle;
 }
 
+.container .main table td a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .main table tr:hover {
+  background: #e4e0e0;
+}
+
 .container .main .pagination {
   padding-top: 2rem;
   display: inline-block;
@@ -222,7 +231,8 @@ body {
   color: green;
 }
 
-.container .main .menubar .filters .one, .container .main .menubar .filters .two {
+.container .main .menubar .filters .one,
+.container .main .menubar .filters .two {
   background-color: #e6ece5;
   font-size: 1rem;
   border-width: 3px;

@@ -162,7 +162,17 @@ body {
             td {
                 border-bottom: 1px solid #d4d4d4;
                 vertical-align: middle;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
             }
+
+            tr:hover {
+                background: rgb(228, 224, 224);
+            }
+
         }
 
 
@@ -235,7 +245,8 @@ body {
 
             .filters {
 
-                .one,.two {
+                .one,
+                .two {
                     background-color: rgb(230, 236, 229);
                     font-size: 1rem;
                     border-width: 3px;
