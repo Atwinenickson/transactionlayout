@@ -249,3 +249,30 @@ body {
   padding: 0.5em 1em;
   transition: all 0.15s;
 }
+
+.container .details {
+  margin-top: 2rem;
+}
+
+.container .details .heading {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .details .heading span h4 {
+  color: black;
+}
+
+.container .details .heading span p {
+  color: gray;
+}
+
+.container .details .heading i {
+  margin-left: auto;
+}
+
+.container .details .details {
+  background-color: white;
+}

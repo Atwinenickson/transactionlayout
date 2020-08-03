@@ -271,5 +271,34 @@ body {
         }
     }
 
+    .details {
+        margin-top: 2rem;
+
+        .heading {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            span {
+                h4 {
+                    color: black;
+                }
+
+                p {
+                    color: gray;
+                }
+            }
+
+            i {
+                margin-left: auto;
+            }
+        }
+
+        .details {
+            background-color: white;
+        }
+    }
+
 
 }
